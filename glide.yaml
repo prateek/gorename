@@ -1,0 +1,8 @@
+package: github.com/prateek/gorename
+import:
+- package: golang.org/x/tools
+  repo: git@github.com:prateek/tools.git
+  vcs: git
+  subpackages:
+  - go/buildutil
+  - refactor/rename

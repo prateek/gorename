@@ -1,0 +1,16 @@
+hash: 50b02d2d41cf56b9e774798ad392a6ad9eb5734c6bed441a40174f3c7adbb00c
+updated: 2018-04-23T21:48:26.878560949-04:00
+imports:
+- name: golang.org/x/tools
+  version: 72b0e988ce6957db328582decda8829154c66545
+  repo: git@github.com:prateek/tools.git
+  vcs: git
+  subpackages:
+  - go/ast/astutil
+  - go/buildutil
+  - go/loader
+  - go/types/typeutil
+  - refactor/importgraph
+  - refactor/rename
+  - refactor/satisfy
+testImports: []
