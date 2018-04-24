@@ -1,7 +1,7 @@
 package: github.com/prateek/gorename
 import:
 - package: golang.org/x/tools
-  repo: git@github.com:prateek/tools.git
+  repo: https://github.com/prateek/tools.git
   vcs: git
   subpackages:
   - go/buildutil
